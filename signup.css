@@ -19,7 +19,7 @@ body{
 }
 .form-box{
     width:400px;
-    height:550px ;
+    height:600px ;
     border: 2px solid rgba(255,255,255,.5);
     border-radius: 20px;
     backdrop-filter: blur(15px);
@@ -63,6 +63,12 @@ body{
     color: wheat;
     font-size: 15px;
 }
+i{
+    position: absolute;
+    color: #fff;
+    top: 13px;
+    right: 0;
+}
 input::placeholder{
     color: wheat ;
 }
@@ -92,10 +98,39 @@ input::placeholder{
 .group a:focus{
     text-decoration: underline;
 }
+#result{
+    color: red;
+    position: relative;
+    font-weight: 600;
+    padding-left: 5px;
+    top: 0;
+}
+.popup{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    text-align: center;
+    padding: 10px 30px 30px;
+    height: 300px;
+    color: black;
+    top: 0;
+    transform: translate(-50%,-50%)scale(0);
 
-
-
-
+}
+.popup button{
+    width: 100%;
+    background: rgb(89, 241, 89);
+    padding: 10px 0;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 0 2px, rgba(0,0,0,.1);
+}
 
 
 
