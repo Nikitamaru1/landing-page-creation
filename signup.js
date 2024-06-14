@@ -31,4 +31,21 @@ function validation(){
         document.getElementById("result").innerHTML="***Password doesn't match***"
         return false;
     }
+    else if(document.formFill.Password.value == document.formFill.cPassword.value){
+        popup.classList.add("open-slide")
+        return false;
+    }
 }
+var popup=document.getElementById('popup')
+
+function closeSlide(){
+    popup.classList.remove("open-slide")
+    document.formFill.reset();
+}
+
+
+
+
+
+
+

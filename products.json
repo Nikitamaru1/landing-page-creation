@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Wooden Lid Container",
+        "price": 100,
+        "image": "Images/img15.webp"
+    },
+    {
+        "id": 2,
+        "name": "Zero Waste Kit",
+        "price": 200,
+        "image": "Images/img17.jpeg" 
+    },
+    {
+        "id": 3,
+        "name": "Wooden Brush",
+        "price": 200,
+        "image": "Images/img16.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Wooden Loofah",
+        "price": 120,
+        "image": "Images/img14.webp"
+    },
+    {
+        "id": 5,
+        "name": "Eco-Friendly Toothbrush",
+        "price": 50,
+        "image": "Images/img18.webp"
+    },
+    {
+        "id": 6,
+        "name": "Sustainable Cutlery",
+        "price": 300,
+        "image": "Images/img19.webp"
+    },
+    {
+        "id": 7,
+        "name": "Wooden Box Kit",
+        "price": 500,
+        "image": "Images/img20.webp"
+    },
+    {
+        "id": 8,
+        "name": "Wooden Board",
+        "price": 600,
+        "image": "Images/img21.webp"
+    }
+
+
+
+
+
+
+]
